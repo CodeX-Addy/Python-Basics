@@ -10,7 +10,7 @@ def greet(name):
 	return gr
 a = greet(“python”) #“python” is passed to greet in name
 
-# a will now contain “Hello World”
+# a will now contain “Hello python”
 
 # Default Parameter Value
 def greet(name=’stranger’):
