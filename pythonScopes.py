@@ -35,3 +35,13 @@ def myfunc():
 myfunc()
 
 print(x)
+
+#Global keyword
+def myfunc():
+  global x
+  x = 300
+
+myfunc()
+
+print(x)
+
