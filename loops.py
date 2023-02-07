@@ -35,6 +35,7 @@ for i in range(0, 80):
 
 l = [1, 7, 8]
 for item in l:
-			#without pass, the program will throw an error
+	pass            #without pass, the program will throw an error
+			
 
 
