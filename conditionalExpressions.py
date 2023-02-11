@@ -19,7 +19,7 @@ else:
 
 <=, etc.
 
-#Logical operators
+#Logical 
 and -> true if both operands are true else false
 
 or -> true if at least one operand is true else false
