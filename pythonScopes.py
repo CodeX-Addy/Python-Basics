@@ -15,6 +15,7 @@ def myfunc():
   myinnerfunc()
 
 myfunc()
+# Output will be 300
 
 #Global Scope
 #A variable created outside of a function is global and can be used by anyone:
