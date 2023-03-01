@@ -29,7 +29,7 @@ class Employee:
 		self.name = name
 	def getSalary(self):
 		#Some code…
-harry = Employee(“Harry”)	#Object can be instantiated using constructor like this!
+harry = Employee(“Aditya”)	#Object can be instantiated using constructor like this!
 
 
 
