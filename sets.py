@@ -1,0 +1,22 @@
+set = {'a', 'b', 'c', 'd', 'e'}
+print(set)
+
+s = {4, 5, 8, 6, 3, 2, 5}
+key = 3
+x = key in s # containment check
+y = key not in s # non-containment check
+print(x, y)
+#Output - True False
+
+s1 = {'t', 3, 6, 5, 7, 8, 4, 9}
+s2 = {5, 7, 8, 9, 't', 4, 3, 6}
+
+# equivalent check
+x = s1 == s2
+
+# non-equivalent check
+y = s1 != s2
+print(x)
+print(y)
+# Oputput- True
+#          False
