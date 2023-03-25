@@ -9,7 +9,7 @@ Aditya.company
 Employee.company = “Github”	#changing class attribute
 
 #Instance Attributes
-print(“Hello World”)         # print is a function (more later)
+print(“Hello World”)         # print is a function 
 
 harry.getSalary()
 
