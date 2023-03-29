@@ -8,7 +8,7 @@ func1()          #This is called function call
 def greet(name):
 	gr = “Hello” + name
 	return gr
-a = greet(“python”) #“python” is passed to greet in name
+        a = greet(“python”) #“python” is passed to greet in name
 
 # a will now contain “Hello python”
 
