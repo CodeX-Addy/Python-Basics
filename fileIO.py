@@ -24,4 +24,4 @@ f.close()
 #With statement
 with open(“this.txt”) as f:
 
-            f.read()
+           f.read()
