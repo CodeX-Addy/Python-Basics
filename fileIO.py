@@ -9,9 +9,7 @@ text = f.read()          #Read its content
 print(text)     #Print its contents
 
 f.close()         #Close the fie
-
 f.read(2)       #Reads first 2 characters
-
 f.readline()               #Reads one line from the file
 
 #Writing files in python
@@ -23,5 +21,4 @@ f.close()
 
 #With statement
 with open(“this.txt”) as f:
-
-           f.read()
+        f.read()
