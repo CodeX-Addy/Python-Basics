@@ -1,4 +1,4 @@
-Class Employee:		[classname is written in PascalCase]
+Class Employee:	     [classname is written in PascalCase]
 	#methods & variables
 
 #Class Attributes  
