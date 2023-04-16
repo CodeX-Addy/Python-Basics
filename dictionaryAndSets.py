@@ -12,7 +12,7 @@ a = {“name”: “Aditya”,
 	“marks”: [92,98,96]}
 items() : returns a list of (key,value) tuple.
 keys() : returns a list containing dictionary’s keys.
-update({“friend”: “Sam”}) : updates the dictionary with supplied key-value pairs.
+update({“friend”: “Max”}) : updates the dictionary with supplied key-value pairs.
 get(“name”) : returns the value of the specified keys
 
 # Set is a collection of non-repetitive elements.
