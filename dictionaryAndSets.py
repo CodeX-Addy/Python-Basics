@@ -6,7 +6,7 @@
 a[“key”]	# Prints value
 a[“list”] 	# Prints [1,2,9] '''
 
-# Dictionary Methods
+# Various Dictionary Methods
 a = {“name”: “Aditya”,
 	“from”: “India”,
 	“marks”: [92,98,96]}
@@ -22,7 +22,7 @@ S.add(2)
 
 # or Set = {1,2}
 
-# Operations on a set
+# Different Operations on a set
 S = {1,8,2,3}
 Len(s) : Returns 4, the length of the set
 remove(8) : Updates the set S and removes 8 from S
