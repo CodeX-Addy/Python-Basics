@@ -5,4 +5,4 @@ print(a//b) #It will return the integer value
 print(a*b)
 print(a+b)
 print(a-b)
-print(a**b) #It will give the a exponent to b
+print(a**b) #It will give the value of a exponent to b
