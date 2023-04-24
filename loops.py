@@ -4,7 +4,7 @@
 Write a program to print 1 to 50 using a while loop?
 i = 0
 while i<5:
-    print(“Harry”)
+    print(“Aditya”)
     i = i+1
 
 #for loop
