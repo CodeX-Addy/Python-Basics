@@ -10,14 +10,14 @@ a = 22
 if (a>9):
     print(“Greater”)
 else:
-    print(“lesser”)
+    print(“Lesser”)
      
 #Relational operators
 = = -> equals
 
 >=  -> greater than/equal to
 
-<=, etc.
+<= etc.
 
 #Logical operators
 and -> true if both operands are true else false
