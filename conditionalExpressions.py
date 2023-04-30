@@ -6,7 +6,7 @@ elif (condition2):		// if condition 2 is true
 else:				// otherwise
 	print(“May be”)
 '''
-a = 22
+a = 22 #Indentation is important
 if (a>9):
     print(“Greater”)
 else:
