@@ -38,3 +38,10 @@ else:
 # 5
 # No items left.
  
+# Printing sum of n 
+num = int(input("Enter value of n:"))
+sumofn = 0
+for i in range(num+1):
+    sumofn += i
+print(sumofn)
+    
