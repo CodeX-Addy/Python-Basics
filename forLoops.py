@@ -49,7 +49,7 @@ print(sumofn)
 num = int(input("Enter value of n:"))
 productofn = 1
 for i in range(num+1):
-    productofn += i
+    productofn *= i
 print(sumofn)
 
     
