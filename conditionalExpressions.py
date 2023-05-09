@@ -18,14 +18,3 @@ and -> true if both operands are true else false
 or -> true if at least one operand is true else false
 
 not -> inverts true to false and false to true
-
-'''
-if (condition1):
-    #code
-elif (condition 2): //elif clause
-    #code
-elif (condition 2):
-    #code
-….
-else:
-    #code    '''
