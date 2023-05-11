@@ -12,7 +12,6 @@ def my_goto(x, y):
 def eyes():
     fillcolor("#ffffff")
     begin_fill()
-
     tracer(False)
     a = 2.5
     for i in range(120):
