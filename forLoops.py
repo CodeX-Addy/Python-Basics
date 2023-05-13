@@ -24,6 +24,8 @@ for i in values:
 # 1
 # 2
 # 3
+#Similarly
+
 
 # For loop with else
 digits = [0, 1, 5]
