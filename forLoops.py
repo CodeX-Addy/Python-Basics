@@ -27,7 +27,7 @@ for i in values:
 #Similarly if we write
 for i in values:
     print(i,end='')
-
+#Output:- 0 1 2 3
 
 
 # For loop with else
