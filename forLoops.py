@@ -24,7 +24,10 @@ for i in values:
 # 1
 # 2
 # 3
-#Similarly
+#Similarly if we write
+for i in values:
+    print(i,end='')
+
 
 
 # For loop with else
