@@ -1,7 +1,7 @@
 
-a = 22 #Indentation is important
+a = 22 
 if (a>9):
-    print(“Greater”)
+    print(“Greater”)#Indentation is necessary
 else:
     print(“Lesser”)
      
