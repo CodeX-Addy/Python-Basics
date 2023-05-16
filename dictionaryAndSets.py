@@ -14,6 +14,7 @@ items() : returns a list of (key,value) tuple.
 keys() : returns a list containing dictionary’s keys.
 update({“friend”: “Max”}) : updates the dictionary with supplied key-value pairs.
 get(“name”) : returns the value of the specified keys
+clear() : Will clear the dictionary or returns the empty dictionary
 
 # Set is a collection of non-repetitive elements.
 S= Set()          # No repetition allowed!
