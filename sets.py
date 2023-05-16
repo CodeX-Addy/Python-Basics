@@ -24,3 +24,13 @@ print(x)
 print(y)
 # Oputput- True
 #          False
+
+#Union and intersection of sets
+a = {1,2,3}
+b = {4,5,6}
+
+print(a.union(b))
+#Output :- {1,2,3,4,5,6}
+
+print(a.intersection(b))
+#Output:- set() which indicates the empty set
