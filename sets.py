@@ -1,6 +1,10 @@
 set = {'a', 'b', 'c', 'd', 'e'}
 print(set)
 
+set = {'a','a','b','b'}
+print(set)
+#Output :- {'a','b'}
+
 s = {4, 5, 8, 6, 3, 2, 5}
 key = 3
 x = key in s # containment check
