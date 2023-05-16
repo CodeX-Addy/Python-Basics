@@ -16,3 +16,4 @@ append(8) – adds 8 at the end of the list
 insert(3,8) – This will add 8 at 3 index
 pop(2) – It will delete the element at index 2 and return its value
 remove(21) – It will remove 21 from the last
+extend([2,3,4]) - It will extend the existing list as
