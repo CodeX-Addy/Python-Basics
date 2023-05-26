@@ -16,3 +16,5 @@ not -> inverts true to false and false to true
 
 #Bitwise operators
 & -> Bitwise and
+| -> Bitwise or
+~ -> Bitwise not/tilde operator
