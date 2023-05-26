@@ -6,14 +6,13 @@ else:
      
 #Relational operators
 = = -> equals
-
 >=  -> greater than/equal to
-
 <= etc.
 
 #Logical operators
 and -> true if both operands are true else false
-
 or -> true if at least one operand is true else false
-
 not -> inverts true to false and false to true
+
+#Bitwise operators
+& -> Bitwise and
