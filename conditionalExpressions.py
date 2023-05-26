@@ -1,4 +1,3 @@
-
 a = 22 
 if (a>9):
     print(“Greater”)#Indentation is necessary
