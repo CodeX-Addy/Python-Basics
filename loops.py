@@ -1,7 +1,7 @@
 #While loop 
 ''' while condition:
     #Body of the loop '''
-Write a program to print 1 to 50 using a while loop?
+#Write a program to print 1 to 50 using a while loop?
 i = 0
 while i<5:
     print(“Aditya”)
