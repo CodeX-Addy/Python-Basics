@@ -9,5 +9,5 @@ try:
     print(a + 1)
 except Exception as ex:
     print("Some error occured due to",ex)
-    #It'll give the reason for error
+    # It'll give the reason for error
 
