@@ -19,4 +19,4 @@ float(32)       #32.0 Integer to float conversion
 
 # input() function
 #This function allows the user to take input from the keyboard as a string.
-a = input(“Enter name”)               #if a is “Python”, the user entered Python
+a = input("Enter name")               #if a is “Python”, the user entered Python
