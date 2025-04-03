@@ -3,7 +3,7 @@ b="Python" #String
 c=71.22 #Floating point
 a = 71                                    #Identifies a as class<int>
 b = 88.44                              #Identifies b as class<float>
-name = "Python"                 #Identifies name as class<Str>
+name = "Python"                 #Identifies name as class<str>
 
 # type() function and typecasting:-
 a = 31
