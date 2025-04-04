@@ -5,5 +5,7 @@ a = (1, 7, 2)   #Tuple with more than one element
 
 # Tuple methods
 a = (1, 7, 2)
-count(1) – It will return the number of times 1 occurs in a.
-index(1) – It will return the index of the first occurrence of 1 in a.
+'''
+count(1) = It will return the number of times 1 occurs in a.
+index(1) = It will return the index of the first occurrence of 1 in a.
+'''
