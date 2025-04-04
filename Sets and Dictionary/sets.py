@@ -1,9 +1,7 @@
-#Declaring empty set
+## Declaring empty set
 a = set()
 print(type(a))
 #Output:- <class 'set'>
-
-
 
 set = {'a', 'b', 'c', 'd', 'e'}
 print(set)
