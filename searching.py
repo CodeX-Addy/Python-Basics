@@ -1,4 +1,4 @@
-# LINEAR SEARCH
+## LINEAR SEARCH
 def search(arr, x):
 
 	for i in range(len(arr)):
@@ -8,7 +8,7 @@ def search(arr, x):
 
 	return -1
 
-# BINARY SEARCH
+## BINARY SEARCH
 def binary_search(arr, x):
 	low = 0
 	high = len(arr) - 1
