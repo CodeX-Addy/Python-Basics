@@ -8,7 +8,6 @@ def my_goto(x, y):
     goto(x, y)
     pendown()
 
-
 def eyes():
     fillcolor("#ffffff")
     begin_fill()
@@ -25,8 +24,6 @@ def eyes():
             fd(a)
     tracer(True)
     end_fill()
-
-
 
 def beard():
     my_goto(-32, 135)
@@ -53,7 +50,6 @@ def beard():
     seth(-13)
     fd(60)
 
-
 def mouth():
     my_goto(5, 148)
     seth(270)
@@ -62,7 +58,6 @@ def mouth():
     circle(120, 50)
     seth(230)
     circle(-120, 100)
-
 
 def scarf():
     fillcolor('#e70010')
@@ -78,7 +73,6 @@ def scarf():
     circle(-5, 90)
     end_fill()
 
-
 def nose():
     my_goto(-10, 158)
     seth(315)
@@ -86,7 +80,6 @@ def nose():
     begin_fill()
     circle(20)
     end_fill()
-
 
 def black_eyes():
     seth(0)
@@ -109,8 +102,6 @@ def black_eyes():
     circle(5)
     end_fill()
     my_goto(0, 0)
-
-
 
 
 def face():
@@ -140,7 +131,6 @@ def face():
     seth(180)
     fd(64)
 
-
 def head():
     penup()
     circle(150, 40)
@@ -149,7 +139,6 @@ def head():
     begin_fill()
     circle(150, 280)
     end_fill()
-
 
 def Doraemon():
     head()
@@ -292,8 +281,6 @@ def Doraemon():
     fd(15)
     dot(10)
     my_goto(0, -150)
-
-
 
 if __name__ == '__main__':
     pensize(3)
