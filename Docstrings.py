@@ -4,7 +4,6 @@ Docstrings, short for documentation strings, are vital in conveying the purpose 
 def my_function():
     '''Demonstrates triple double quotes
     docstrings and does nothing really.'''
- 
     return None
 
 print("Using __doc__:")
