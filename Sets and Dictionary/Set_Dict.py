@@ -16,6 +16,7 @@ a = {"name": "Aditya",
 	"marks": [92,98,96]}
 
 '''
+popitem(): To pop and return the last dict item
 items() : returns a list of (key,value) tuple.
 keys() : returns a list containing dictionary's keys.
 update({“friend”: “Max”}) : updates the dictionary with supplied key-value pairs.
