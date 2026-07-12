@@ -21,6 +21,9 @@ items() : returns a list of (key,value) tuple.
 keys() : returns a list containing dictionary's keys.
 update({“friend”: “Max”}) : updates the dictionary with supplied key-value pairs.
 get(“name”) : returns the value of the specified keys, it is best practice to use 'get' instead of direct access to avoid code crash
+
+like dictionary.get("a", "a is not available")
+
 clear() : Will clear the dictionary or returns the empty dictionary
 '''
 
