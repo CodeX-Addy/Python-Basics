@@ -1,4 +1,8 @@
 ## Dictionary is a collection of key-value pairs.
+
+dictionary = dict(type="Code", name="Coding", duration=2)
+print(dictionary)
+
 ''' a = {“key”: “value”,
 “python”: “code”,
 “marks” : “100”,
