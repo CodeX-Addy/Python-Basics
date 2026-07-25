@@ -35,6 +35,7 @@ myfunc()
 print(x)
 
 ## Non local keyword demonstration:
+## Non local limitation is to just look variable above the function like just above print_anything(), that's where global comes into the picture
 
 def print_something():
     char = 'a'
