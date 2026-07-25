@@ -14,3 +14,11 @@ def add_by_twenty(num):
     
 print(f"First func: {multiply_by_ten(10)}")
 print(f"Second func: {add_by_twenty(20)}") 
+
+## lambda function
+
+alphabets = ["a", "b", "b" , "c", "d", "e"]
+
+vowels = list(filter(lambda vowel: vowel in ["a", "e", "i", "o", "u"], alphabets))
+
+print(vowels)
