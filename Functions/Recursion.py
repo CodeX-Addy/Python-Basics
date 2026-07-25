@@ -1,6 +1,7 @@
-## Simple factorial program to demonstrate the recusrsion's working
+## Simple factorial program to demonstrate the recursion's working
 
-factorial(n) = n * factorial(n-1)
+## factorial(n) = n * factorial(n-1)
+
 def factorial(n):
 	if i == 0 or i == 1 : #Base condition which doesn’t call the function any further
 		return i
