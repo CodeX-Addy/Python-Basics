@@ -6,17 +6,6 @@ def myfunc():
 
 myfunc()
 
-#Function inside function
-# The local variable can be accessed from a function within the function
-def myfunc():
-  x = 300
-  def myinnerfunc():
-    print(x)
-  myinnerfunc()
-
-myfunc()
-# Output will be 300
-
 #Global Scope
 #A variable created outside of a function is global and can be used by anyone:
 x = 300
@@ -44,4 +33,16 @@ def myfunc():
 
 myfunc()
 print(x)
+
+## Non local keyword demonstration:
+
+def print_something():
+    char = 'a'
+    def print_anything():
+        nonlocal char
+        char = 'b'
+    print_anything()
+    print(f"The char value: {char}")
+    
+print_something()
 
