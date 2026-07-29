@@ -1,35 +1,13 @@
-Class Employee:	     ## [classname is written in PascalCase]
-	## Methods & Variables
+class Coffee:
+    pass
 
-## Class Attributes  
-Class Employee:
-	company = "XYZ" 	## Specific to each class
-Aditya = Employee()	## Object instantiation
-Aditya.company
-Employee.company = "Github" ## Changing class attribute
+class CoffeeTime:
+    pass
 
-## Instance Attributes
-print("Hello World") 
+print(type(Coffee))
 
-class Employee:
-	company = "Google"
-	def getSalary(self):
-		print("Salary is not there")
+latte = Coffee()
 
-## Static method
-@staticmethod	
-def greet():
-	print(“Hello user”)
-
-## __init__() constructor
-class Employee:
-	def __init__(self,name):
-		self.name = name
-	def getSalary(self):
-X = Employee("Aditya")## Object can be instantiated using constructor like this!
-
-
-
-
-
-
+print(type(latte))
+print(type(latte) is Coffee)
+print(type(latte) is CoffeeTime)
