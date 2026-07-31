@@ -9,3 +9,9 @@ print(f"Class temp: {Coffee.temperature}")
 
 del latte.temperature
 print(f"Attribute temp: {latte.temperature}") ## it will fallback to class default
+
+"""
+Attribute temp: mild
+Class temp: hot
+Attribute temp: hot
+"""
