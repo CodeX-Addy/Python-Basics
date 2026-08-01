@@ -12,7 +12,6 @@ class Coffee(BaseCoffee):
     
     def return_coffee(self):
         print(f"This coffee has {self.sugar} sugar level with {self.coco_powder} coco powder and it is {self.ishot}")
-        
 
 class AnotherCoffee(BaseCoffee):
     def __init__(self, sugar, coco_powder, ishot):
@@ -22,7 +21,6 @@ class AnotherCoffee(BaseCoffee):
     def return_coffee(self):
         print(f"This coffee has {self.sugar} sugar level with {self.coco_powder} coco powder and it is {self.ishot}")
         
-
 coffee = Coffee("high", "mild", "hot")
 coffee.return_coffee()
 
