@@ -14,5 +14,9 @@ class D(B, C): ## it'll give preference from left to right, if C is present firs
 
 label_check = D()
 print(label_check.label)
+print(D.__mro__)
 
-## output : B class
+"""
+B class
+(<class '__main__.D'>, <class '__main__.B'>, <class '__main__.C'>, <class '__main__.A'>, <class 'object'>)
+"""
