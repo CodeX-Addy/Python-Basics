@@ -14,5 +14,8 @@ class CoffeeTime:
         else:
             raise ValueError("Time must be between 1 and 5")
     
-obj = CoffeeTime(2)
+obj = CoffeeTime(6)
 print(obj.time)  ## gives 4
+
+obj.time = 6
+print(obj.time) ## value error
