@@ -1,4 +1,4 @@
-dictionary = {"coffee": "latte", "size": 300}
+dictionary = {"coffee": "latte", "size": 250}
 
 try:
     print("Checking the coffee size..")
