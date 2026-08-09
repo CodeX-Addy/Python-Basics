@@ -23,6 +23,8 @@ f4.write("Overwrited...")
 f5 = open("test.txt", "r")
 print(f5.read())
 
+## NOTE: to open any file, appending something, behind the scenes, a dunder is called and which is __enter__() and closing calls __exit__()
+
 ## To create a new file
 
 f6 = open("new_test.txt", "x")
