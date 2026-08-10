@@ -17,7 +17,7 @@ brew_thread = threading.Thread(target=brew_coffee)
 order_thread.start()  ## starting the threads
 brew_thread.start()
 
-order_thread.join()
+order_thread.join()  ## wait to complete
 brew_thread.join()
 
 print("Order is taken for brewing the coffee..")
