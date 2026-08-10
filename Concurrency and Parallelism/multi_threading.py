@@ -21,3 +21,5 @@ order_thread.join()
 brew_thread.join()
 
 print("Order is taken for brewing the coffee..")
+
+## in this code, only single core of cpu is engaged 
