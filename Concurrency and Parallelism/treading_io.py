@@ -5,7 +5,7 @@ import time
 def fetch_images(url):
     print(f"Web requests starts for {url}")
     resp = requests.get(url)
-    print("Finished..and size is", len(resp.content))
+    print("Finished..and size is", len(resp.content))  ## it will be on bytes
 
 urls = ["https://httpbin.org/image/svg", "https://httpbin.org/image/png", 
 "https://httpbin.org/image/jpeg"]
