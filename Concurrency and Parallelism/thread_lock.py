@@ -9,8 +9,8 @@ def increment():
         with lock:  ## it prevents race condition so that no more threads access same variable
             counter += 1
 
-thread = [threading.Thread(target=increment) for _ in range(10)]
-[t.start() for t in thread]
-[t.join() for t in thread]
+threads = [threading.Thread(target=increment) for _ in range(10)]
+[t.start() for t in threads]
+[t.join() for t in threads]
 
 print(f"Final counter value: {counter}")
